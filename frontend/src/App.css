@@ -1,0 +1,151 @@
+*{
+  color:#fff;
+  background-color: #282c34;
+
+}
+
+
+.App {
+  text-align: center;
+  justify-content: center;
+}
+.connect{
+  width: 100px;
+  height: 40px;
+  background-color:#282c34 ;
+  border-radius:15px ;
+  font-size: larger;
+  font-weight: 700;
+}
+.connect:hover{
+ background-color: white;
+  color: #282c34;
+}
+
+.consent-form{
+  border: 3px solid white;
+  height: 250px;
+}
+.consent-form label{
+  margin-right: 20px;
+  font-size: 25px;
+}
+.consent-form select{
+  border: 1px solid white;
+  font-size: medium;
+  height: 30px;
+  width: 200px;
+}
+.consent-form input{
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  color:white;
+  border: 1px solid white;
+  font-size: medium;
+  font-weight: 800;
+}
+
+.consent-form button{
+  width: 100px;
+  height: 40px;
+  background-color:#282c34 ;
+  border-radius:15px ;
+  font-size: larger;
+  font-weight: 700;
+}
+.consent-form button:hover{
+ background-color: white;
+  color: #282c34;
+}
+
+.userid-form{
+  border: 2px solid white;
+  height: 200px;
+}
+.userid-form label{
+  margin-right: 20px;
+  font-size: 25px;
+}
+.userid-form input{
+  height: 30px;
+  width: 300px;
+  text-align: center;
+  color:white;
+  border: 1px solid white;
+  font-size: medium;
+  font-weight: 800;
+}
+.userid-form button{
+  width: 150px;
+  height: 40px;
+  background-color:#282c34 ;
+  border-radius:15px ;
+  font-size: larger;
+  font-weight: 700;
+}
+.userid-form button:hover{
+ background-color: white;
+  color: #282c34;
+}
+button{
+  width: 100px;
+  height: 40px;
+  background-color:#282c34 ;
+  border-radius:15px ;
+  font-size: larger;
+  font-weight: 700;
+}
+
+@media (max-width:400px){
+.App{
+  align-items: center;
+  justify-content: center;
+}
+.userid-form{
+  width:350px;
+  margin-left: 200px;
+  margin: auto;
+  align-items: center;
+}
+.userid-form input{
+  width: 200px;
+}
+
+.consent-form{
+  width:350px;
+  margin: auto;
+  align-items: center;
+}
+.consent-form input{
+  width: 200px;
+}
+}
+@media (max-width:450px){
+.App{
+  align-items: center;
+  justify-content: center;
+}
+.userid-form{
+  width: 400px;
+}
+.consent-form{
+  width: 400px;
+}
+}
+@media (min-width:1020px){
+  .consent-form,
+  .userid-form{
+    margin: auto;
+    align-self: center;
+    width:1000px;
+  }
+}
+@media (min-width:1200px){
+  .consent-form,
+  .userid-form{
+    margin: auto;
+    align-self: center;
+    width:1200px;
+  }
+}
